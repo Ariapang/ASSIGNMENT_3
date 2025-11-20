@@ -1,0 +1,10 @@
+# Requirements for the Cat and Mouse game
+# Minimal tested Python version: 3.8+
+# Install with: python -m pip install -r requirements.txt
+
+pygame>=2.1,<3
+
+# Notes:
+# - On Windows, pip will install prebuilt pygame wheels for supported Python versions.
+# - If you need an exact version for reproducibility, replace the range above with e.g.
+#   pygame==2.1.3
